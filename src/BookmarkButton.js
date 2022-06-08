@@ -1,7 +1,7 @@
 import React from 'react';
 import {getHeaders} from './utils';
 
-class Bookmark extends React.Component {  
+class BookmarkButton extends React.Component {  
 
     constructor(props) {
         super(props);
@@ -69,4 +69,4 @@ class Bookmark extends React.Component {
     }
 }
 
-export default Bookmark;
+export default BookmarkButton;

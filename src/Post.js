@@ -1,6 +1,6 @@
 import React from 'react';
 import LikeButton from './LikeButton';
-import Bookmark from './Bookmark';
+import BookmarkButton from './BookmarkButton';
 import AddComment from './AddComment';
 import {getHeaders} from './utils';
 import Modal from './Modal';
@@ -94,7 +94,7 @@ class Post extends React.Component {
                             </button>
                         </section>
 
-                        <Bookmark 
+                        <BookmarkButton 
                                 postId={post.id} 
                                 bookmarkId={post.current_user_bookmark_id}
                                 requeryPost={this.requeryPost} />

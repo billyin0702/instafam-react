@@ -16,8 +16,8 @@ class NavBar extends React.Component {
     render () {
         return (
             <header>
-                <div class="nav_left">
-                    <img class="website_logo" src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram Logo" />
+                <div className="nav_left">
+                    <img className="website_logo" src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram Logo" />
                     <h1>{this.props.title}</h1>
                 </div>
                 <nav>
